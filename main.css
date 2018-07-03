@@ -1,0 +1,153 @@
+html, body {
+margin: 0;
+padding: 0;
+background-image:url(greybg.png);
+font-family: Arial, Helvetica, sans-serif;
+max-width:100%;
+}
+
+h2 {
+text-align: center;	
+}
+
+a {
+color: #FFF;
+}
+
+a:hover {
+color: #3399FF;
+}
+
+#homescreen {
+margin:auto;	
+width:80%;
+height:450px;
+margin-left:10%;
+margin-right:10%;
+position:relative;
+overflow:hidden;
+font-size:1em;
+color:#FFF;
+text-align: justify;
+text-justify: inter-word;
+}
+
+
+
+#navContent{
+display:none;
+margin:auto;	
+width:100%;
+height:450px;
+position:relative;
+overflow:hidden;
+}
+
+
+
+#game1{
+margin:auto;
+width:100%;
+height:450px;
+right:0px;
+position:absolute;
+}
+
+#game2{
+margin:auto;	
+width:100%;
+height:450px;
+right:-100%;
+position:absolute;
+} 
+ 
+.questionText{
+width:100%;
+font-size:1em;
+color:#FFF;
+text-align: center;
+}
+
+.option{
+height:auto;
+font-size:1em;
+color:#FFFFFF; 
+padding:2px;
+
+border: 2px solid white;
+cursor:pointer;
+background-color:#3399FF;
+text-align: center;
+vertical-align: middle;
+line-height:auto; 
+width:88%;margin-left:5%;margin-right:5%;margin-top:1%;padding:1%;
+}
+
+.option:hover{
+border:#FC0 solid 2px;
+color:#FC0;
+}
+
+#topbar{
+height:1.7em;
+margin:auto;
+color:#FFF;
+font-size:1.5em;
+font-family:Arial, Helvetica, sans-serif;
+width:100%;
+border-bottom:solid white 1px;
+text-align: center;
+vertical-align: middle;
+line-height: 1.7em; 
+}
+ 
+.spacer{
+height:.8em;
+}
+
+.feedback1{
+width:86%;margin-left:5%;margin-right:5%;margin-top:4%;padding:2%;
+border: 2px solid white;
+font-size:1.2em;
+color:#FFFFCC;
+background-color:#009900;
+font-family:Arial, Helvetica, sans-serif;
+text-align:center;
+}
+
+.feedback2{
+width:86%;margin-left:5%;margin-right:5%;margin-top:4%;padding:2%;
+border: 2px solid white;
+font-size:1.2em;
+color:#FFFFCC;
+background-color:#CC3300;
+font-family:Arial, Helvetica, sans-serif;
+text-align:center;
+}
+
+.re-start{
+width:86%;margin-left:5%;margin-right:5%;margin-top:5%;padding:2%;
+border: 2px solid white;
+font-size:1.2em;
+color:#FFFFFF;
+background-color:transparent;
+font-family:Arial, Helvetica, sans-serif;
+text-align:center;
+}
+
+.re-start:hover{background-color:#ffffff;color:#000}
+
+ 
+@media screen and (max-width:800px) {
+	body {width:100%;}
+	#topbar{margin-left:1%;margin-right:1%;	width:96%;}
+	#navContent{margin:1%;	width:98%;}
+	#game1{margin:1%;	width:98%;}
+	#game2{margin:1%;	width:98%;}
+	.option{width:86%;margin-left:5%;margin-right:5%;margin-top:5%;padding:2%;}
+}
+
+@media screen and (max-width:460px) {
+	body {width:100%;}
+	.option{width:86%;margin-left:5%;margin-right:5%;margin-top:5%;padding:2%;}
+}
