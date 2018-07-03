@@ -19,5 +19,5 @@
 
     
     
-<preference name="android-targetSdkVersion(26)" value="26"/>
+<preference name="android-targetSdkVersion" value="26"/>
 </widget>
