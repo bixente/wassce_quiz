@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "https://wasscehistorytextbook.com/
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>WASSCE History Quiz</name>
+
+  <description>
+  This quiz is aimed at West African students taking West African Senior School Certificate Examination (WASSCE) History Paper 1, “West Africa and the Wider World from Earliest Times to 2000”. 
+  </description>
+
+  <author href="https://wasscehistorytextbook.com/" email="vincent.hiribarren@kcl.ac.uk">
+      Vincent Hiribarren
+  </author>
+
+</widget>
