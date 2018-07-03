@@ -16,5 +16,8 @@
   <author href="https://wasscehistorytextbook.com/" email="vincent.hiribarren@kcl.ac.uk">
       Vincent Hiribarren
   </author>
+    
+    
+<preference name="LogLevel" value="false"/>
 
 </widget>
