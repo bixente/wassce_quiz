@@ -2,7 +2,7 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "https://wasscehistorytextbook.com/"
-    versionCode = "31"
+    versionCode = "32"
     version     = "1.0.0" >
 
 <!-- versionCode is optional and Android only -->
@@ -13,11 +13,11 @@
   This quiz is aimed at West African students taking West African Senior School Certificate Examination (WASSCE) History Paper 1, “West Africa and the Wider World from Earliest Times to 2000”. 
   </description>
 
-  <author href="https://wasscehistorytextbook.com/" email="vincent.hiribarren@kcl.ac.uk">
-      Vincent Hiribarren
-  </author>
+  <author href="https://wasscehistorytextbook.com/" email="vincent.hiribarren@kcl.ac.uk">Vincent Hiribarren</author>
 
 <icon src="icon.png"/>
-<allow-intent href="https://wasscehistorytextbook.com/*"/>   
+<allow-intent href="https://wasscehistorytextbook.com/*"/> 
+<allow-navigation href="https://wasscehistorytextbook.com/*" />  
 <preference name="android-targetSdkVersion" value="26"/>
+
 </widget>
