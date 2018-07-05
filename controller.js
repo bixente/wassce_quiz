@@ -91,7 +91,7 @@ $(stage).append('<div class="questionText">'+questionBank[questionNumber][0]+'</
 		
 		$(stage).append('<div class="questionText">You have finished the quiz!<br><br>Total questions: '+numberOfQuestions+'<br>Correct answers: '+score+'</div>');
 		$(stage).append('<div class="questionText"><button type="button" class="re-start" style="border-color: rgb(255, 255, 255)" onclick=window.location.reload();>Restart</button></div>');
-		$(stage).append('<div class="questionText" style="margin-top: 15px">If you want to revise, visit <a href="https://wasscehistorytextbook.com/" target="_blank">our website</a>.</div>');
+		$(stage).append('<div class="questionText" style="margin-top: 15px">If you want to revise, visit <a href="https://wasscehistorytextbook.com/">our website</a>.</div>');
 		
 	}//display final slide
 
