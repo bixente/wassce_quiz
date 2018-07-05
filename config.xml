@@ -2,7 +2,7 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "https://wasscehistorytextbook.com/"
-    versionCode = "30"
+    versionCode = "31"
     version     = "1.0.0" >
 
 <!-- versionCode is optional and Android only -->
@@ -17,7 +17,7 @@
       Vincent Hiribarren
   </author>
 
-  <icon src="icon.png"/>
-<allow-navigation href="https://wasscehistorytextbook.com/" />   
+<icon src="icon.png"/>
+<allow-intent href="https://wasscehistorytextbook.com/*"/>   
 <preference name="android-targetSdkVersion" value="26"/>
 </widget>
