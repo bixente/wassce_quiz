@@ -26,17 +26,12 @@
 <script src="controller.js"></script>
 <script>function move(){$('.start').parents('#homescreen').fadeOut();$('#navContent').fadeIn();}</script>
 <script type="text/javascript">
-    $('a').click(function(e) { 
+ if (!strUrl.startsWith("http://") && !strUrl.startsWith("https://")){
+     strUrl= "http://" + strUrl;
+ }
 
-      if (this.href.substr(0,4) === 'http') {
 
-        e.preventDefault();
-
-        cordova.InAppBrowser.open(this.href, '_system');
-
-      }
-
-    });
+ startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(strUrl)));
     </script>
 
 </body>
