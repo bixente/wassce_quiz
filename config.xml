@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "https://wasscehistorytextbook.com/"
+    versionCode = "38"
+    version     = "1.1.3" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>WASSCE History Quiz</name>
+
+  <description>
+  This quiz is aimed at West African students taking West African Senior School Certificate Examination (WASSCE) History Paper 1, “West Africa and the Wider World from Earliest Times to 2000”. 
+  </description>
+
+  <author href="https://wasscehistorytextbook.com/" email="vincent.hiribarren@kcl.ac.uk">Vincent Hiribarren</author>
+
+<preference name="android-targetSdkVersion" value="26"/>
+<icon src="icon/icon.png"/>
+
+
+<!-- iOS 8.0+ -->
+<!-- iPhone 6 Plus  -->
+
+<!-- iOS 7.0+ -->
+<!-- iPhone / iPod Touch  -->
+<icon src="icon/icon-60.png" gap:platform="ios" width="60" height="60" />
+<icon src="icon/icon-120.png" gap:platform="ios" width="120" height="120" />
+<!-- iPad -->
+<icon src="icon/icon-76.png" gap:platform="ios" width="76" height="76" />
+<icon src="icon/icon-152.png" gap:platform="ios" width="152" height="152" />
+
+
+
+
+
+  <content src="index.html" />
+  <plugin name="cordova-plugin-whitelist" spec="1" />
+  <access origin="*" />
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
+  <allow-intent href="tel:*" />
+  <allow-intent href="sms:*" />
+  <allow-intent href="mailto:*" />
+  <allow-intent href="geo:*" />
+  <platform name="android">
+      <allow-intent href="market:*" />
+  </platform>
+  <platform name="ios">
+      <allow-intent href="itms:*" />
+      <allow-intent href="itms-apps:*" />
+  </platform>
+ 
+
+
+</widget>
