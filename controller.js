@@ -62,16 +62,19 @@ $(document).ready(function() {
             q2 = questionBank[questionNumber][3];
             q3 = questionBank[questionNumber][4];
         }
+
         $(stage).append('<div class="questionText">' + questionBank[questionNumber][0] + '</div><div id="1" class="option">' + q1 + '</div><div id="2" class="option">' + q2 + '</div><div id="3" class="option">' + q3 + '</div><div id="4" class="option">' + q4 + "</div>");
+		
+		
         $(".option").click(function() {
             if (questionLock == false) {
                 questionLock = true;
                 if (this.id == rnd) {
-                    $(stage).append('<div class="feedback1">CORRECT</div>');
+                    $(stage).append('<div class="feedback1">Correct</div>');
                     score++;
                 }
                 if (this.id != rnd) {
-                    $(stage).append('<div class="feedback2">WRONG: The correct answer was "' + questionBank[questionNumber][1] + '"</div>');
+                    $(stage).append('<div class="feedback2">Wrong: ' + questionBank[questionNumber][1] + '</div>');
                 }
                 setTimeout(function() {
                     changeQuestion();
@@ -106,8 +109,9 @@ $(document).ready(function() {
         });
     }
     function displayFinalSlide() {
-        $(stage).append('<div class="questionText">You have finished the quiz!<br><br>Total questions: ' + numberOfQuestions + "<br>Correct answers: " + score + "</div>");
-        $(stage).append('<div class="questionText"><button type="button" class="re-start" style="border-color: rgb(255, 255, 255)" onclick=window.location.reload();>Restart</button></div>');
-        $(stage).append('<div class="questionText" style="margin-top: 15px">If you want to revise, visit <a href="https://wasscehistorytextbook.com/">our website</a>.</div>');
+        $(stage).append('<div class="finalText">You have finished the quiz!<br><br>Total questions: ' + numberOfQuestions + "<br>Correct answers: " + score + "</div>");
+        $(stage).append('<div class="finalText"><button type="button" class="re-start" style="border-color: rgb(255, 255, 255)" onclick=window.location.reload();>Restart</button></div>');
+        $(stage).append('<div class="finalText" style="margin-top: 5%">If you want to revise, visit our <a href="https://wasscehistorytextbook.com/">website</a>.</div>');
+		$(stage).append('<div class="appby">App created by <a href="https://www.vincenthiribarren.com/">Vincent Hiribarren</a>.</div>');
     }
 });

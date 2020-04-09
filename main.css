@@ -1,165 +1,63 @@
-html, body {
-margin: 0;
-padding: 0;
-background-image:url(greybg.png);
-font-family: Arial, Helvetica, sans-serif;
-max-width:100%;
-}
-
-h2 {
-text-align: center;	
-}
-
-a {
-color: #FFF;
-}
-
-a:hover {
-color: #3399FF;
-}
-
-#homescreen {
-margin:auto;	
-width:80%;
-height:450px;
-margin-left:10%;
-margin-right:10%;
-position:relative;
-overflow:hidden;
-font-size:1em;
-color:#FFF;
-text-align: justify;
-text-justify: inter-word;
-}
-
-
-
-#navContent{
-display:none;
-margin:auto;	
-width:100%;
-height:450px;
-position:relative;
-overflow:hidden;
-}
-
-
-
-#game1{
-margin:auto;
-width:100%;
-height:450px;
-right:0px;
-position:absolute;
-}
-
-#game2{
-margin:auto;	
-width:100%;
-height:450px;
-right:-100%;
-position:absolute;
-} 
- 
-.questionText{
-width:100%;
-font-size:1em;
-color:#FFF;
-text-align: center;
-}
-
-.option{
-height:auto;
-font-size:1em;
-color:#FFFFFF; 
-padding:2px;
-
-border: 2px solid white;
-cursor:pointer;
-background-color:#3399FF;
-text-align: center;
-vertical-align: middle;
-line-height:auto; 
-width:88%;margin-left:5%;margin-right:5%;margin-top:1%;padding:1%;
-}
-
-.option:hover{
-border:#FC0 solid 2px;
-color:#FC0;
-}
-
-#topbar{
-height:1.7em;
-margin:auto;
-color:#FFF;
-font-size:1.5em;
-font-family:Arial, Helvetica, sans-serif;
-width:100%;
-border-bottom:solid white 1px;
-text-align: center;
-vertical-align: middle;
-line-height: 1.7em; 
-}
- 
-.spacer{
-height:.8em;
-}
-
-.feedback1{
-width:86%;margin-left:5%;margin-right:5%;margin-top:4%;padding:2%;
-border: 2px solid white;
-font-size:1.2em;
-color:#FFFFCC;
-background-color:#009900;
-font-family:Arial, Helvetica, sans-serif;
-text-align:center;
-}
-
-.feedback2{
-width:86%;margin-left:5%;margin-right:5%;margin-top:4%;padding:2%;
-border: 2px solid white;
-font-size:1.2em;
-color:#FFFFCC;
-background-color:#CC3300;
-font-family:Arial, Helvetica, sans-serif;
-text-align:center;
-}
-
-.start{
-width:100%;margin-top:5%;padding:4%;
-border: 2px solid white;
-font-size:1.2em;
-color:#FFFFFF;
-background-color:transparent;
-font-family:Arial, Helvetica, sans-serif;
-text-align:center;
-}
-
+html, body { margin: 0; padding: 0; background-color:#002B33; font-family: Consolas; width:100%; height: 100%; }
+a { background-color: red; color:#FFF;  text-decoration: none;} 
+a:hover {  text-decoration: underline; } 
+.description {text-align: center;font-size:6vh;	 }
+.start{ width:100%;margin-top:2%;padding:4%; border: 2px solid white; font-size:6vh; color:#FFFFFF; background-color:transparent; text-align:center; } 
 .start:hover{background-color:#ffffff;color:#000}
-
-.re-start{
-width:86%;margin-left:5%;margin-right:5%;margin-top:5%;padding:2%;
-border: 2px solid white;
-font-size:1.2em;
-color:#FFFFFF;
-background-color:transparent;
-font-family:Arial, Helvetica, sans-serif;
-text-align:center;
-}
-
+#topbar{ width: 100%; color:#FFF; border-bottom:solid white 1px; height: 10%; display: table; }
+#topbar p { display: table-cell; vertical-align: middle; text-align: center; font-size:8vh; }
+.spacer{height:3%;}
+#homescreen {margin:auto;width:80%;height:84%;margin-left:10%;margin-right:10%;position:relative;overflow:hidden; color:#FFF;}
+#navContent{ display:none; margin:auto;	 width:80%; height:84%; margin-left:10%; margin-right:10%; position:relative; overflow:hidden; }
+#game1{ margin:auto; width:100%; height:100%; right:0px; position:absolute;font-size:3vh }
+#game2{ margin:auto; width:100%; height:100%; right:-100%; position:absolute;font-size:3vh } 
+.questionText{ position:relative; margin-left:5%; margin-right:5%; width:90%; height:auto; color:#FFF; text-align: center; }
+.option{ position: relative; height:auto; color:#FFFFFF; border: 2px solid white; cursor:pointer; background-color:#09868b; text-align: center; vertical-align: middle; line-height:auto; width:90%;margin-left:5%;margin-right:5%;margin-top:2%;padding-bottom: 2%; padding-top: 2% }
+.option:hover{ background-color:#ffffff;color:#000; } 
+.feedback1{ position: relative; width:90%;margin-left:5%;margin-right:5%;margin-top:2%; border: 2px solid white; color:#FFFFFF; background-color:#009900; text-align:center;vertical-align: middle;padding-bottom: 2%; padding-top: 2%;}
+.feedback2{ position: relative; width:90%;margin-left:5%;margin-right:5%;margin-top:2%; border: 2px solid white; color:#FFFFFF; background-color:#CC3300; text-align:center;vertical-align: middle;padding-bottom: 2%; padding-top: 2%;} 
+.finalText{ position:relative; margin-left:5%; margin-right:5%; width:90%; height:auto; font-size:4vh; color:#FFF; text-align: center; }
+.appby{ position:absolute; bottom:5%; margin-left:5%; margin-right:5%; width:90%; height:auto; font-size:3.5vh; color:#FFF; text-align: center; }
+.re-start{ position: relative; width:86%;margin-left:5%;margin-right:5%;margin-top:5%;padding:2%; border: 2px solid white; font-size:1.2em; color:#FFFFFF; background-color:transparent; font-family:Consolas; text-align:center; }
 .re-start:hover{background-color:#ffffff;color:#000}
-
- 
+/* iPad vertical */
 @media screen and (max-width:800px) {
-	body {width:100%;}
-	#topbar{margin-left:1%;margin-right:1%;	width:96%;}
-	#navContent{margin:1%;	width:98%;}
-	#game1{margin:1%;	width:98%;}
-	#game2{margin:1%;	width:98%;}
-	.option{width:86%;margin-left:5%;margin-right:5%;margin-top:5%;padding:2%;}
+#topbar p { font-size:7vh;}
+.description {font-size: 3vh;}
+.spacer{height:2%;}
+.questionText{font-size: 3vh;}
+.feedback1{margin-top: 5%;font-size: 3vh;padding-bottom:2%;padding-top:2%; }
+.feedback2{margin-top: 5%; font-size: 3vh;padding-bottom:2%;padding-top:2%; }
+.option {margin-top: 5%;font-size: 3vh; padding-bottom: 2%; padding-top: 2% }
+.appby {font-size:2.5vh;}
 }
-
-@media screen and (max-width:460px) {
-	body {width:100%;}
-	.option{width:86%;margin-left:5%;margin-right:5%;margin-top:5%;padding:2%;}
+/* iPad horizontal */
+/* Galaxy S9 vertical */
+/* iPhone 6/7/8 vertical ios 11*/
+/* iPhone 6/7/8 Plus vertical ios 11*/
+/* iPhone X/XS ios vertical 12*/
+@media screen and (max-height:850px) {
+#topbar p { font-size:2.5em; }
+.description {font-size:3vh}
+.spacer{height:2%;}
+.questionText{font-size: 2.6vh; }
+.feedback1{margin-top: 5%;font-size: 2.6vh; padding-bottom:2%;padding-top:2%; }
+.feedback2{margin-top: 5%; font-size: 2.6vh;padding-bottom:2%;padding-top:2%; }
+.option {margin-top: 5%;font-size: 2.6vh; padding-bottom: 2%; padding-top: 2% }
+.finalText{ font-size:3vh;}
+}
+/* Galaxy S9 horizontal */
+/* iPhone 6/7/8 horizontal ios 11*/
+/* iPhone 6/7/8 Plus horizontal ios 11*/
+/* iPhone X/XS ios horizontal 12*/
+@media screen and (max-height:460px) {
+#topbar p { font-size:10vh; }
+.description {font-size:5vh}
+.spacer{height:2%;}
+.questionText{font-size: 3.2vh; }
+.feedback1{margin-top: 2%;font-size: 3.2vh;padding-bottom:2%;padding-top:2%; }
+.feedback2{margin-top: 2%; font-size: 3.2vh; padding-bottom:2%;padding-top:2%;}
+.option {margin-top: 2%;font-size: 3.2vh; padding-bottom: 2%; padding-top: 2% }
+.finalText{ font-size:5vh;}
+.appby {font-size:4vh;}
 }

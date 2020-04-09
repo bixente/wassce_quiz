@@ -169,9 +169,9 @@
 	"option4":"Know about past leaders only"
 	},	
 	{
-	"question":"Emphasis is placed on non–documentary sources of writing African history because",
+	"question":"Emphasis is placed on non–documentary sources of African history because",
 	"option1":"Documentary sources have proved incomplete",
-	"option2":"Non-documentary sources come from very old people",
+	"option2":"Non-documentary sources come from old people",
 	"option3":"Non–documentary sources tell interesting stories",
 	"option4":"Documentary sources are expensive"
 	},	
@@ -198,10 +198,10 @@
 	},	
 	{
 	"question":"Ethnography helps the historian to",
-	"option1":"Understand present day social issues in order to explain the past",
+	"option1":"Understand present day social issues",
 	"option2":"Excavate for the purpose of historical research",
 	"option3":"Gather information about people from one generation to another",
-	"option4":"Undertake a scientific study of the original, structure and changes of languages"
+	"option4":"Undertake a scientific study of languages"
 	},
 	{
 	"question":"Which region of Africa has the largest population of Muslims?",
@@ -246,14 +246,14 @@
 	"option4":"Algeria"
 	},
 	{
-	"question":"What ideology did Ibn Yasin and Ibn Umar adopt to justify their conquest in Northern Africa?",
-	"option1":"nothing outside of Islamic law could be classified as opposition",
+	"question":"How did Ibn Yasin and Ibn Umar justify their conquest in Northern Africa?",
+	"option1":"No opposition is possible outside of Islamic law",
 	"option2":"The re-establishment of the Sanhaja union",
 	"option3":"The adoption of the Sacred Law",
 	"option4":"The necessity of Jihads"
 	},
 	{
-	"question":"The Almoravid dynasty fell in the 12th century AD after the conquest of the city of Marrakesh by the",
+	"question":"The Almoravid dynasty fell in the 12th century AD after the conquest of Marrakesh by the",
 	"option1":"Almohads",
 	"option2":"Aragonese",
 	"option3":"Jakhanke Islamic movement",
@@ -295,7 +295,7 @@
 	"option4":"The Portuguese"
 	},
 	{
-	"question":"Who are the main European colonising powers in West Africa at the end of the 19th century?",
+	"question":"Who were the main colonising powers in 19th-century West Africa?",
 	"option1":"France, Germany, Portugal, Spain, United Kingdom",
 	"option2":"Belgium, France, Italy, United Kingdom",
 	"option3":"France, Greece, Norway, Sweden, United Kingdom",
@@ -309,18 +309,18 @@
 	"option4":"Ivory Coast, Tanzania"
 	},
 	{
-	"question":"Most West African borders were created in European chancelleries and followed",
-	"option1":"astronomical, mathematical or geographical lines",
+	"question":"Most West African borders follow",
+	"option1":"lines drawn in Europe",
 	"option2":"borders of pre-existing African states",
 	"option3":"limits of pre-existing ethnic groups",
-	"option4":"commercial limits of the transatlantic and transsaharan slave trade"
+	"option4":"former commercial zones"
 	},
 	{
 	"question":"European border treaties were most of the time:",
 	"option1":"very vague and needed to be adapted on the ground",
 	"option2":"very precise because of detailed European maps",
-	"option3":"signed with the full understanding and consent of African rulers",
-	"option4":"negotiated with African rulers"
+	"option3":"signed with the consent of African rulers",
+	"option4":"negotiated with African populations"
 	},
 	{
 	"question":"Samori Ture chose to fight against",
@@ -534,7 +534,7 @@
 	},
 	{
 	"question":"Queen Amina was a powerful 15th century ruler of",
-	"option1":"Nupe",
+	"option1":"Zaria",
 	"option2":"Kano",
 	"option3":"Bono-Mansu",
 	"option4":"Jolof"
