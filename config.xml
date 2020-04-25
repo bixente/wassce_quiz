@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
@@ -8,7 +10,7 @@
         <key>beta-reports-active</key>
         <true/>
         <key>application-identifer</key>
-        <string>{{YOUR_APP_ID}}</string>
+        <string>{{1415311533}}</string>
     </dict>
 </plist>
 
@@ -17,7 +19,7 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "https://wasscehistorytextbook.com/"
-    version     = "1.3" >
+    version     = "1.4" >
 
 <!-- versionCode is optional and Android only -->
 
