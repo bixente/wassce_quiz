@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-    <dict>
-        <key>aps-environment</key>
-        <string>production</string>
-        <key>get-task-allow</key>
-        <false/>
-        <key>beta-reports-active</key>
-        <true/>
-        <key>application-identifer</key>
-        <string>{{1415311533}}</string>
-    </dict>
-</plist>
-
-
 
 <widget id="io.cordova.hellocordova" version="1.4" ios-CFBundleVersion="1.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-
-<!-- versionCode is optional and Android only -->
 
   <name>WASSCE History Quiz</name>
 
